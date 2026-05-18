@@ -1,0 +1,29 @@
+{
+  "name": "movie-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --env-file=.env  index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "movie",
+    "app",
+    "database"
+  ],
+  "author": "Ehichioya",
+  "license": "MIT",
+  "type": "module",
+  "description": "A movie db app built with Node.js and Express",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "cloudinary": "^2.9.0",
+    "dotenv": "^17.2.3",
+    "ejs": "^5.0.2",  
+    "express": "^5.2.1",
+    "bcrypt": "^6.0.0",
+    "mongoose": "^9.5.0"
+  }
+}
